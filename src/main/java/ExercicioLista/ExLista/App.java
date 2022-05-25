@@ -39,6 +39,7 @@ public class App {
     	System.out.println("Entre com o id empregado que terá aumento de salário: ");
     	int idsalario = sc.nextInt();
     	Integer posicao = hasId(list, idsalario);
+    	
     	//valida que o id não existe	
     	while(posicao == null) {
     		System.out.println("Este id não existe! Digite novamente: ");
